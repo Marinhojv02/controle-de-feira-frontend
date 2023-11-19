@@ -1,0 +1,36 @@
+@import '../../css-variables.scss';
+
+.house-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap cards to the next line */
+    justify-content: center;
+}
+
+.house-card {
+    width: calc(50% - 20px); /* Set card width to 50% with some margin between them */
+    margin: 10px; /* Margin between cards */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the content */
+    background-color: $light-color; /* Use your color variable */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

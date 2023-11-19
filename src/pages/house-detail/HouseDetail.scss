@@ -1,0 +1,27 @@
+@import '../../css-variables.scss';
+
+.house-details-navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: $primary-color;
+}
+
+.house-info {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+    p {
+        padding: 10px;
+    }
+}
+
+.products-from-house{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

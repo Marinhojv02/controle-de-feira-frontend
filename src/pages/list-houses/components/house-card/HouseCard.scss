@@ -1,0 +1,13 @@
+@import '../../../../css-variables.scss';
+
+.house-card-container{
+    width: 400px;
+    margin: 20px;
+    border:none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: $light-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

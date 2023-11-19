@@ -1,0 +1,32 @@
+@import '../../css-variables.scss';
+
+
+.shopping-list-product-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $light-color;
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+ul.shopping-product-list{
+    display: inline-block;
+    text-align: left;
+}
+
+
+.shopping-list-product{
+    display: flex;
+    flex-direction: row;
+
+    p{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+// Import color variables
+@import '../../css-variables.scss';
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: $navbar-color; // Use the $navbar-color variable
+    width: 100%;
+}
+
+.page-info {
+    display: flex;
+}
+
+.user-info {   
+    display: flex;
+}
+
+.link {
+    padding: 20px;
+    color:$light-color;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

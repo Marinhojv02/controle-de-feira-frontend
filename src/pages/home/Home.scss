@@ -1,0 +1,14 @@
+@import '../../css-variables.scss';
+
+.container{
+    width:75%;
+    height:100%;
+    margin: 10% auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: $light-color;
+}
